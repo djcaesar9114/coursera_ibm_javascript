@@ -1,13 +1,50 @@
 [
     {
         "id": 1,
-        "name": "Australia",
-        "cities": [
-            {
-                "name": "Sydney",
-                "imageUrl": "xxx",
-                "description": "A vibrant city known for its iconi landmarks like the Sydney Opera House."
-            }
-        ]
+        "country": "Australia",
+        "timezone": "Australia/Sydney",
+        "city": "Sydney",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeUI7WzY5xAKvGzgRhPKQJJyDblnmxb3GEWQ&s",
+        "description": "A vibrant city known for its iconi landmarks like the Sydney Opera House, Harbour Bridge, and stunning beaches."
+    },
+    {
+        "id": 2,
+        "country": "France",
+        "timezone": "Europe/Paris",
+        "city": "Mont Saint-Michel",
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/L%27Abbaye_du_Mont-Saint-Michel%2C_vue_du_ciel.JPG",
+        "description": "If you like temples and beaches, this is clearly the best destination."
+    },
+    {
+        "id": 3,
+        "country": "Cambodia",
+        "timezone": "Asia/Phnom_Penh",
+        "city": "Angkor",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpMIUr3sNEU0jNBqzj90GzAvNRnQcoUbJkgw&s",
+        "description": "Believe me, if you're into temples, that's definitely the place to go."
+    },
+    {
+        "id": 4,
+        "country": "France",
+        "timezone": "Europe/Paris",
+        "city": "Lacanau",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhfG0hfbQ9huhiBgWUEUXPSsKJwy1831mI7A&s",
+        "description": "A great beach to surf. That's all there is to do there."
+    },
+    {
+        "id": 5,
+        "country": "France",
+        "timezone": "Europe/Paris",
+        "city": "Guéret",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbhGrMvjiu5K_qw5oTVMkaJQfMxo3ChMqrA&s",
+        "description": "You won't be disturbed by anything there as it is maybe the country by essence."
+    },
+    {
+        "id": 6,
+        "country": "Tibet",
+        "timezone": "Asia/Shanghai",
+        "city": "Lhassa",
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp0SoQ_OMP1XbGcpLzjnr2WdXyN4ZNjqzK-w&s",
+        "description": "The perfect mix between country and temple. Also, take a coat if you go there."
     }
 ]

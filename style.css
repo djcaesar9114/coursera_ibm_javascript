@@ -134,6 +134,30 @@ body {
     border-radius: 20px;
 }
 
+#recommendations {
+    position: fixed;
+    top: 10%;
+    right: 5%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.reco .name {
+    font-weight: bold;
+}
+
+.reco {
+    background-color: #abdf;
+    border-radius: 10px;
+    border: 2px dotted black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.reco img {
+    width: 100px;
+}
+
 #contact-us {
     display: flex;
     justify-content: space-around;
