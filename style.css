@@ -1,0 +1,159 @@
+body {
+    background-image: url('./img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed; 
+    height: 100svh;
+    width: 100svw;
+    margin: 0;
+    padding: 0;
+    font-family: Gill Sans, sans-serif;
+    overflow: hidden;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #333a, #eee3);
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+}
+.navbar input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #333;
+    padding: 8px 0;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    width: 100%;
+
+}
+
+.navbar input[type="text"]:focus {
+    border-bottom-color: #4C50AF;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.my-button {
+    background-color: #4C50AF;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.my-button:hover {
+    background-color: #4549a0;
+    transform: translateY(-2px);
+}
+
+.my-button:active {
+    background-color: #3e8e41;
+    transform: translateY(2px);
+}
+
+#social {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: #1122aabb;
+    left: 0;
+    border-radius: 0 10px 10px 0;
+    padding: 10px 10px 10px 20px;
+    bottom: 10%;
+}
+
+#social img {
+    width: 30px;
+    margin: 10px 0;
+}
+
+.hero {
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #bbdc;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+.section {
+    padding: 100px 20px 20px 20px;
+    min-height: 100vh;
+}
+.team-member {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #abe;
+    padding: 28px;
+    border-radius: 20px;
+}
+
+#about-us .wrapper {
+    margin: 20px 10%;
+}
+
+.team {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #fffa;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#contact-us {
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-us form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40svw;
+    height: 40svh;
+    background-color: #111a;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+form input, form textarea, form button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+}

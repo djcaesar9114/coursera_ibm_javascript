@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar">
+        <div>
+            <a href="#">✈️ TravelBloom</a>
+        </div>
+        <div>
+            <a href="#home">Home</a>
+            <a href="#about-us">About Us</a>
+            <a href="#contact-us">Contact Us</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-keyword" placeholder="Search recommendations...">
+            <button id="search-btn" class="my-button">Search</button>
+            <button id="reset-btn" class="my-button">Reset</button>
+        </div>
+    </div>
+
+    <div id="social">
+        <a href="https://facebook.com" target="_blank"><img src="https://static.cdnlogo.com/logos/f/91/facebook-icon.svg"></a>
+        <a href="https://twitter.com" target="_blank"><img src="https://static.cdnlogo.com/logos/t/35/twitter.svg"></a>
+        <a href="https://instagram.com" target="_blank"><img src="https://static.cdnlogo.com/logos/i/92/instagram.svg"></a>
+    </div>
+
+    <div id="home" class="hero">
+        <h1>Welcome to TravelBloom</h1>
+        <p>Probably one of the most average-looking website you'll encounter on Github!</p>
+    </div>
+
+    <div id="about-us" class="section">
+        <div class="wrapper">
+            <h2>About Us</h2>
+            <p>Meet our team of random people we've encountered on internet.</p>
+            <div class="team">
+                <h3>Our Team</h3>
+                <div class="team-member">
+                    <strong>Jane Doe</strong>Founder & CEO
+                </div>
+                <div class="team-member">
+                    <strong>John Smith</strong>Lead Travel Specialist
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact-us" class="section">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" id="email" placeholder="Your Email">
+            <textarea id="message" placeholder="Your Message" rows="10"></textarea>
+            <button type="submit" class="my-button">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
